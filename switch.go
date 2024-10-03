@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func testSwitch() {
 
 	x := 10
 

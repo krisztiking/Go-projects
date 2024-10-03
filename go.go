@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func test1() {
 
 	/*scanner := bufio.NewScanner(os.Stdin)
 	fmt.Println("How old are you?")

@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func testMap() {
 
 	var mp map[string]int = map[string]int{
 		"apple":  1,
