@@ -16,4 +16,12 @@ func main() {
 
 	}
 
+	y := 10
+	switch y {
+	case 20:
+		fmt.Println(y)
+	default:
+		fmt.Println("y != 20")
+	}
+
 }
