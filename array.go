@@ -38,4 +38,39 @@ func main() {
 	e := make([]int, 5)
 	fmt.Println(e)
 
+	//array szamok kivalogatasa es sorrendbe rakasa
+	var f []int = []int{1, 4, 7, 5, 2, 9, 5, 3, 4, 1, 55, 33, 11, 11, 11}
+	hu := make([]int, 0)
+	fmt.Println(f)
+	for i, element := range f {
+		for j, element2 := range f {
+
+			if element == element2 && i != j {
+				break
+			} else if element != element2 && j == len(f)-1 {
+				hu = append(hu, element)
+			} else if element == element2 && i == j && j == len(f)-1 {
+				hu = append(hu, element)
+			} else if element != element2 {
+				continue
+			}
+
+		}
+	}
+
+	fmt.Println(hu)
+
+	//novekvo sorrend
+
+	for i, element := range hu {
+		for j := i + 1; j < len(hu); j++ {
+			if element > hu[j] {
+				vari := hu[i]
+				hu[i] = hu[j]
+				hu[j] = vari
+			}
+		}
+	}
+	fmt.Println(hu)
+
 }
