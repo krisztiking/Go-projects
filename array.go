@@ -35,4 +35,7 @@ func main() {
 	d = append(d, b[5])
 	fmt.Println(d)
 
+	e := make([]int, 5)
+	fmt.Println(e)
+
 }
