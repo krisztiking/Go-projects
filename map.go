@@ -27,4 +27,8 @@ func testMap() {
 	val2, ok2 := mp["orange"]
 	fmt.Println(val2, ok2)
 
+	// uj ertek hozzaadasa
+	mp["banana"] = 13
+	fmt.Println(mp)
+
 }
