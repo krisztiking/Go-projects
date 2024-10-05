@@ -13,7 +13,7 @@ func test1() {
 
 	var prim bool = true
 	// var om bool = true
-
+	
 	for x := 1; x <= 100; x++ {
 
 		for y := 2; y <= 7; y++ {

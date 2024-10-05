@@ -10,7 +10,8 @@ func tester2(t2 func(int) int) {
 	fmt.Println(t2(12))
 }
 
-func returnFunc(x string) func() {
+func returnFunc2(x string) func() {
+	
 	return func() { fmt.Println(x) }
 }
 
@@ -27,6 +28,6 @@ func function2() {
 	func() {
 		fmt.Println("szimpla")
 	}()
-	returnFunc("Na eleg")()
+	returnFunc2("Na eleg")()
 
 }

@@ -1,0 +1,11 @@
+{
+    "author": {
+        "name": "Jon",
+        "age": 21,
+        "is_developer": false
+    },
+    "title": {
+        "main_title": "Something",
+        "secondary_title": "Something about anyting"
+    }
+}
